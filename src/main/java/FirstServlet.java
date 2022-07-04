@@ -12,7 +12,7 @@ public class FirstServlet extends HttpServlet
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("<h3>HELLO WORLD SNEHA MY FIRST SERVLET!</h3>");
+        out.println("<h3>HELLO WORLD SAURABH MY FIRST SERVLET!</h3>");
         out.close();
     }
 }
